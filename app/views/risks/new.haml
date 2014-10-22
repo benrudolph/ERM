@@ -1,0 +1,29 @@
+%h1
+  New Risk
+
+
+= form_for @risk do |f|
+  = f.label :name
+  = f.text_field :name
+
+  = f.fields_for :risk_details do |b|
+    = b.label :cause
+    = b.text_field :cause
+
+    = b.label :change_reason
+    = b.text_field :change_reason
+
+    = b.label :comments
+    = b.text_field :comments
+
+    = b.label :consequences
+    = b.text_field :consequences
+
+    = b.label :start_date
+    = select_date Date.today, prefix: :start_date
+
+    = b.label :end_date
+    = select_date Date.today, prefix: :end_date
+
+
+  = f.submit
