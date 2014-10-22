@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  proactive: false
+  text: MyText
+  target_date: 2014-10-22 16:27:28
+
+two:
+  proactive: false
+  text: MyText
+  target_date: 2014-10-22 16:27:28

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  start_date: 2014-10-22 16:21:46
+  end_date: 2014-10-22 16:21:46
+  change_reason: MyText
+  cause: MyText
+  event: MyText
+  consequences: MyText
+  closed: false
+  comments: MyText
+
+two:
+  start_date: 2014-10-22 16:21:46
+  end_date: 2014-10-22 16:21:46
+  change_reason: MyText
+  cause: MyText
+  event: MyText
+  consequences: MyText
+  closed: false
+  comments: MyText
